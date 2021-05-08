@@ -1,0 +1,224 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#loading{
+  height: 100vh;
+  width: 100%;
+  background: #fff;
+  z-index: 10000;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-div{
+  background: #979faf;
+  height: 38px;
+  width: 35px;
+  position: absolute;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.fa-user, .fa-envelope, .fa-phone-alt{
+  margin-top: 10px;
+  font-size: 15px;
+  color: #fff;
+}
+input{
+  padding: 15px 8px 15px 45px!important;
+}
+html{
+  scroll-behavior: smooth;
+}
+.pre{
+  display: none;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.nav-link:hover{
+  border-bottom: 1px solid #fff;
+}
+
+#particles-js {
+  position: relative;
+  background-color: #000;
+  background-image: url("images/space1.png");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+.navbar{
+  position: absolute;
+  top: 0;
+}
+.heading {
+  top: 250px;
+  line-height: 60px;
+  position: absolute;
+  left: 100px;
+}
+
+.section-1 #particles-js .heading h1 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 45px;
+  color: #fff;
+}
+
+.section-1 #particles-js .heading p {
+  font-weight: 300;
+  font-size: 27px;
+  color: #fff;
+}
+.section-1, .section-2, .section-3, .section-4{
+  height: 100vh;
+  width: 100%;
+}
+
+.heading-u{
+  /* padding-top: 90px; */
+  padding-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #444649;
+  display: inline-block;
+  border-bottom: 5px solid black;
+}
+.about-section, .skills-section{
+  color: #616161;
+  width: 100%;
+  text-align: center;
+  margin-top: 150px;
+  height: 100%;
+}
+.fad, .fal, .far, .fas{
+  transform: scale(3);
+  color: #fff;
+}
+.fa-html5{
+  color: orangered;
+}
+.fa-css3-alt{
+  color: dodgerblue;
+}
+.fa-bootstrap{
+  color: darkmagenta;
+}
+.fa-js{
+  color: orange;
+}
+.fa-sass{
+  color: magenta;
+}
+.fa-php{
+  color: royalblue;
+}
+.hexagon {  
+  background: linear-gradient(rgba(0,0,0) , rgb(7, 50, 99));
+  height: 100px;
+  width: 115px;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto; 
+} 
+.btn{
+  color: #fff;
+  font-weight: bold;
+  border-radius: 100px;
+  margin: 0 5px;
+  padding: 12px 35px;
+  outline: none;
+  line-height: 1.4;
+  background: linear-gradient(rgba(0,0,0) , rgb(7, 50, 99));
+}
+footer{
+  background: linear-gradient(rgba(0,0,0) , rgb(2, 31, 65));
+}
+
+#myBtn{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 99;
+  border: none;
+  color: #fff;
+  background: linear-gradient(rgba(0,0,0) , rgb(7, 50, 99));
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width:768px) {
+  .navbar-brand{
+    font-size: 22px!important;
+  }
+  .navbar-collapse{
+    transition: 0.5s;
+    background-color: rgba(255,255,255,0.1);
+  }
+  
+  .section-1 #particles-js .heading{
+    top: 240px;
+    left: 20px;
+    line-height: 28px;
+  }
+  .section-1 #particles-js .heading h1 {
+    font-size: 25px;
+  }
+  .section-1 #particles-js .heading p {
+    font-weight: 300;
+    font-size: 19px;
+  }
+  .section-2,.section-3{
+    height: auto;
+  }
+  .section-2 .container{
+    padding-top: 45px;
+    height: min-content;
+    padding-bottom: 45px;
+  }
+  .section-2 .container h1, .section-3 .container h1, .section-4 .container h1{
+    font-size: 25px;
+    padding-top: 0!important;
+  }
+  .section-4 .container h1 {
+    margin-top: 40px;
+  }
+  .about-section{
+    margin-top: 50px;
+  }
+  .skills-section{
+    margin-top: 15px;
+  }
+  .skills-section .row{
+    margin-top: 0!important;
+  }
+  .col-md-3{
+    margin-bottom: 40px;
+  }
+  .section-3 .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  footer {
+    font-size: 12px;
+  }
+  .nav-link{
+    font-size: 16px!important;
+  }
+}
